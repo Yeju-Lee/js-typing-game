@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Game!</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+  <header class="header">
+    <h1>Typing Master!</h1>
+  </header>
+  <section class="word-display">
+    Hello
+  </section>
+  <section class="word-input-box">
+    <input type="text" class="word-input">
+  </section>
+  <section class="game-info">
+    <div>
+      남은 시간: <span class="time">0</span>초
+    </div>
+    <div>
+      획득 점수: <span class="score">0</span>점
+    </div>
+  </section>
+  <button class="button loading" onclick="run()">
+    게임?
+  </button>
+</body>
+</html>
